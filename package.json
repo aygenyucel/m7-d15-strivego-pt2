@@ -1,0 +1,35 @@
+{
+  "name": "m6-d10-strivego",
+  "version": "1.0.0",
+  "description": "Every User registers with email, password and a role, which could be either host or guest.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config -e js ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aygenyucel/m6-d10-strivego.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aygenyucel/m6-d10-strivego/issues"
+  },
+  "homepage": "https://github.com/aygenyucel/m6-d10-strivego#readme",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "process-env": "^2.0.2"
+  }
+}
